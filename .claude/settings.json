@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git checkout:*)",
+      "Bash(git branch:*)",
+      "Bash(npm create:*)",
+      "Read(//tmp/**)",
+      "Bash(rm -rf .git)",
+      "Bash(cp -r * /c/claude-usage/)",
+      "Bash(cp .gitignore /c/claude-usage/)",
+      "Bash(cargo build:*)"
+    ],
+    "additionalDirectories": [
+      "C:\\claude-usage"
+    ]
+  }
+}
